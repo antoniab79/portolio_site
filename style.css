@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  display: block;
+  margin: 100px 0;
+  }
+
+h1 {
+  font-size: 96px;
+  display: block;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+  display: block;
+  margin: 0;
+  }
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+ font-size: 18px;
+ line-height: 1.5;
+ display: block;
+ }
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.mt-5 {
+  margin-top: 100 !important;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: block;
+  margin: 30px 0;
+}
+
+.text-center {
+text-align:center !important;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  padding: 20px; 15px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.text-centre {
+  text-align: center !important;
+}
+
+@media (max-width:576px) {
+  h2 {
+    font-size 26px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .button-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
